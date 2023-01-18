@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\BinaryTreeExample\\BinaryTreeExample\\BinaryTreeExample.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\BinaryTreeExample\\BinaryTreeExample\\BinaryTreeExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\BinaryTreeExample\\BinaryTreeExample\\BinaryTreeExample.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\BinaryTreeExample\\BinaryTreeExample\\BinaryTreeExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\BinaryTreeExample\\BinaryTreeExample\\BinaryTreeExample.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\BinaryTreeExample\\BinaryTreeExample\\BinaryTreeExample.csproj",
         "projectName": "BinaryTreeExample",
-        "projectPath": "C:\\Users\\user\\source\\repos\\BinaryTreeExample\\BinaryTreeExample\\BinaryTreeExample.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\BinaryTreeExample\\BinaryTreeExample\\BinaryTreeExample.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user\\Source\\Repos\\BinaryTreeExample\\BinaryTreeExample\\obj\\",
         "projectStyle": "PackageReference",

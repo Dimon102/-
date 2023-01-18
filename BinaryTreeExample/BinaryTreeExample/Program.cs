@@ -11,18 +11,28 @@ namespace BinaryTreeExample
 
             BinaryTree binaryTree = new BinaryTree();
 
-            binaryTree.Insert(75);
-            binaryTree.Insert(57);
-            binaryTree.Insert(90);
-            binaryTree.Insert(32);
-            binaryTree.Insert(7);
-            binaryTree.Insert(44);
-            binaryTree.Insert(60);
-            binaryTree.Insert(86);
-            binaryTree.Insert(93);
-            binaryTree.Insert(99);
-            binaryTree.Insert(100);
+            //binaryTree.Insert(75);
+            //binaryTree.Insert(57);
+            //binaryTree.Insert(90);
+            //binaryTree.Insert(32);
+            //binaryTree.Insert(7);
+            //binaryTree.Insert(44);
+            //binaryTree.Insert(60);
+            //binaryTree.Insert(86);
+            //binaryTree.Insert(93);
+            //binaryTree.Insert(99);
+            //binaryTree.Insert(100);
+            //binaryTree.Insert(87);
+            //binaryTree.Insert(76);
+            //binaryTree.Insert(92);
 
+            binaryTree.Insert(4);
+            binaryTree.Insert(6);
+            binaryTree.Insert(2);
+            binaryTree.Insert(1);
+            binaryTree.Insert(5);
+            binaryTree.Insert(3);
+            binaryTree.Insert(7);
 
             Console.WriteLine("In Order Traversal (Left->Root->Right)");
             binaryTree.InOrderTraversal();
@@ -31,11 +41,11 @@ namespace BinaryTreeExample
             Console.WriteLine("\nPost Order Traversal (Left->Right->Root)");
             binaryTree.PostorderTraversal();
 
-            //Console.WriteLine("\nFind 99");
-            //var node = binaryTree.Find(99);
+            Console.WriteLine("\nFind 8");
+            var node = binaryTree.Find(8);
             //Console.WriteLine(node.Data);
-            //Console.WriteLine("Find Recursively 99");
-            //var nodeR = binaryTree.FindRecursive(99);
+            //Console.WriteLine("\nFind Recursively 7");
+            //var nodeR = binaryTree.FindRecursive(7);
             //Console.WriteLine(nodeR.Data);
             //Console.WriteLine("Delete a Leaf Node (44)");
             //binaryTree.Remove(44);
@@ -57,8 +67,17 @@ namespace BinaryTreeExample
             //Console.WriteLine(binaryTree.Height());
 
             //Check if the binary tree is balanced. A balanced tree occurs when the height of two subtrees of any node do not differe more than 1.
-            //bool balanced = binaryTree.IsBalanced();
+            bool balanced = binaryTree.IsBalanced();
+            if (balanced == true) 
+            {
+                Console.WriteLine("\nсбалансированно");
+            }
 
+            else
+            {
+                Console.WriteLine("\nне сбалансированно");
+            }
+            
         }
 
 

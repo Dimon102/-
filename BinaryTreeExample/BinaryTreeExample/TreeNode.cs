@@ -168,7 +168,6 @@ namespace BinaryTreeExample
             //Then go to left child its children will be null so we print its data
             if (leftNode != null)
                 leftNode.PreOrderTraversal();
-
             //Then we go to the right node which will print itself as both its children are null
             if (rightNode != null)
                 rightNode.PreOrderTraversal();
@@ -260,5 +259,7 @@ namespace BinaryTreeExample
                 return ((LeftNode != null ? LeftNode.IsBalanced() : true) && (RightNode != null ? RightNode.IsBalanced() : true));
             }
         }
+
+       
     }
 }
